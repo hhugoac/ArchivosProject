@@ -29,9 +29,11 @@ public class AppArchivos2 {
 				try
 				{
 					if(writer!=null)
-						
+					{
+						buffer.close();
+					}
 				}
-				buffer.close();
+				
 			}
 	}
 
